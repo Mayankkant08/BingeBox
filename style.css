@@ -431,6 +431,19 @@ header section .bi-chevron-left,
     z-index: 999999999;
     opacity: 0;
 }
+
+header section .bi-chevron-right {
+    left: unset;
+    right: 3%;
+}
+
+header section:hover .bi-chevron-right {
+    opacity: 1;
+}
+
+header section:hover .bi-chevron-left {
+    opacity: 1;
+}
     
 
 
